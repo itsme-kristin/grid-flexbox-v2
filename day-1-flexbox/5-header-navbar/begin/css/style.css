@@ -72,9 +72,6 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-}
-
-nav ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
