@@ -1,4 +1,4 @@
-/* colors - see style guide for docs. 
+/* colors - see style guide for docs.
 Clearly there is more you could place in variables, up to you if you want to use them. My answer does not go beyond colors to keep the code easier to read. */
 
 :root {
@@ -138,7 +138,7 @@ nav a:hover {
 }
 
 
-/* To keep mobile screens from being stupid long, consider setting a max height on the images and hide the overflow. 
+/* To keep mobile screens from being stupid long, consider setting a max height on the images and hide the overflow.
 
 Spelled out the individual border styles so border-color could go elsewhere. Styling is the same for all borders except the color. */
 
@@ -183,6 +183,12 @@ figcaption a {
     color: var(--color1);
 }
 
+/* green stripe for popular images */
+.stripe {
+    background-color: var(--color2);
+    color: white;
+    padding: 1rem 0 2rem 0;
+}
 
 /* featured image styles */
 
