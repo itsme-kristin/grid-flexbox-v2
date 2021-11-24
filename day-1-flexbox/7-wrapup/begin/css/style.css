@@ -320,6 +320,12 @@ footer address {
     address {
         flex-basis: 49.5%;
     }
+    #popular li:last-child {
+        flex-basis: 100%;
+    }
+    #popular li:last-child figure img {
+        object-position: 0 -350px;
+    }
     /* turn off object position, inherit object-fit: cover */
     figure img {
         object-position: 0;
@@ -368,8 +374,12 @@ footer address {
         margin-left: 100px;
     }
     section li,
-    .social {
+    .social,
+    #popular li:last-child {
         flex-basis: 32.5%;
+    }
+    #popular li:last-child figure img {
+        object-position: 0;
     }
     address {
         flex-basis: 65.5%;
